@@ -19,4 +19,9 @@ public class AppConfig {
         camera.setCameraRoll(cameraRoll);
         return camera;
     }
+
+    @Bean
+    public static TestBeanFactoryPostProc testBeanFactoryPostProc() {
+        return new TestBeanFactoryPostProc();
+    }
 }
