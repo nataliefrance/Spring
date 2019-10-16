@@ -9,10 +9,10 @@
 
 <!--    <bean id="cameraRoll" class="ru.shipova.geekbrains_spring_part_1.Lesson_1.ColorCameraRoll" />-->
 
-    <context:component-scan base-package="ru.shipova.geekbrains_spring_part_1.Lesson_1" />
-    <bean id="camera" class="ru.shipova.geekbrains_spring_part_1.Lesson_1.CameraImpl">
-        <property name="cameraRoll">
-            <ref bean="cameraRoll" />
-        </property>
-    </bean>
+<!--    <context:component-scan base-package="ru.shipova.geekbrains_spring_part_1.Lesson_1" />-->
+<!--    <bean id="camera" class="ru.shipova.geekbrains_spring_part_1.Lesson_1.CameraImpl">-->
+<!--        <property name="cameraRoll">-->
+<!--            <ref bean="cameraRoll" />-->
+<!--        </property>-->
+<!--    </bean>-->
 </beans>
