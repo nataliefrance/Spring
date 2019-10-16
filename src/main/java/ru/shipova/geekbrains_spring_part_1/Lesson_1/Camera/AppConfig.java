@@ -20,8 +20,13 @@ public class AppConfig {
         return camera;
     }
 
+//    @Bean
+//    public static TestBeanFactoryPostProc testBeanFactoryPostProc() {
+//        return new TestBeanFactoryPostProc();
+//    }
+
     @Bean
-    public static TestBeanFactoryPostProc testBeanFactoryPostProc() {
-        return new TestBeanFactoryPostProc();
+    public static UnproducableCameraRollBeanFactoryPostProcessor unproducableCameraRollBeanFactoryPostProcessor() {
+        return new UnproducableCameraRollBeanFactoryPostProcessor();
     }
 }
