@@ -18,7 +18,5 @@ public class Client {
         camera = context.getBean("camera", Camera.class);
         // Пытается сделать фото
         camera.doPhotograph();
-
     }
-
 }
