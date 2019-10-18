@@ -26,13 +26,13 @@ public class AppConfig {
 //        return new TestBeanFactoryPostProc();
 //    }
 
-//    @Bean
-//    public static UnproducableCameraRollBeanFactoryPostProcessor unproducableCameraRollBeanFactoryPostProcessor() {
-//        return new UnproducableCameraRollBeanFactoryPostProcessor();
-//    }
-
     @Bean
-    public static ChangeCameraRollBeanPostProcessor changeCameraRollBeanPostProcessor(){
-        return new ChangeCameraRollBeanPostProcessor();
+    public static UnproducableCameraRollBeanFactoryPostProcessor unproducableCameraRollBeanFactoryPostProcessor() {
+        return new UnproducableCameraRollBeanFactoryPostProcessor();
     }
+
+//    @Bean
+//    public static ChangeCameraRollBeanPostProcessor changeCameraRollBeanPostProcessor(){
+//        return new ChangeCameraRollBeanPostProcessor();
+//    }
 }
