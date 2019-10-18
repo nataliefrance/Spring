@@ -1,4 +1,4 @@
-package ru.shipova.geekbrains_spring_part_1.Lesson_1.HelloMan;
+package helloMan;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

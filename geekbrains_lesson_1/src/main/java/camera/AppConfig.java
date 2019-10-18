@@ -1,7 +1,7 @@
-package ru.shipova.geekbrains_spring_part_1.Lesson_1.Camera;
+package camera;
+
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
@@ -26,13 +26,13 @@ public class AppConfig {
 //        return new TestBeanFactoryPostProc();
 //    }
 
-    @Bean
-    public static UnproducableCameraRollBeanFactoryPostProcessor unproducableCameraRollBeanFactoryPostProcessor() {
-        return new UnproducableCameraRollBeanFactoryPostProcessor();
-    }
-
 //    @Bean
-//    public static ChangeCameraRollBeanPostProcessor changeCameraRollBeanPostProcessor(){
-//        return new ChangeCameraRollBeanPostProcessor();
+//    public static UnproducableCameraRollBeanFactoryPostProcessor unproducableCameraRollBeanFactoryPostProcessor() {
+//        return new UnproducableCameraRollBeanFactoryPostProcessor();
 //    }
+
+    @Bean
+    public static ChangeCameraRollBeanPostProcessor changeCameraRollBeanPostProcessor(){
+        return new ChangeCameraRollBeanPostProcessor();
+    }
 }

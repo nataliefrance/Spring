@@ -1,4 +1,4 @@
-package ru.shipova.geekbrains_spring_part_1.Lesson_1.HelloMan;
+package helloMan;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
